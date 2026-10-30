@@ -22,5 +22,3 @@ export type Night = {
 
 // Reads runs/<night>.jsonl. Returns null when the night has no file.
 export type ReadNight = (runsDir: string, night: string) => Night | null;
-
-export declare function readNight(runsDir: string, night: string): Night | null;
